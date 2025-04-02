@@ -154,71 +154,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVT - Digital Transformation Partner</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
         }
+
         .container {
             max-width: 1000px;
             margin: 20px auto;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.1);
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
             text-align: center;
         }
+
         .section {
-            background: #e3f2fd;
+            background: rgba(255, 255, 255, 0.2);
             margin: 20px;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
         }
+
         h1, h2 {
-            color: #007bff;
+            color: #ffcc00;
+            font-size: 38px;
+            text-transform: uppercase;
+            font-weight: bold;
+            animation: glowing 1.5s infinite alternate;
         }
+
+        @keyframes glowing {
+            0% { text-shadow: 0 0 5px #ffcc00; }
+            100% { text-shadow: 0 0 15px #ffcc00; }
+        }
+
         .highlight {
             color: #28a745;
             font-weight: bold;
+            font-size: 20px;
         }
+
         .services {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
         }
+
         .service-item {
-            background: #007bff;
+            background: #ff5733;
             color: white;
             padding: 15px;
-            border-radius: 8px;
+            border-radius: 10px;
             width: 280px;
             font-weight: bold;
-            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
         }
+
+        .service-item:hover {
+            transform: scale(1.1);
+            background: #ff7733;
+        }
+
         .contact {
             margin-top: 20px;
             font-weight: bold;
-            color: #d9534f;
+            font-size: 22px;
+            color: #ffeb3b;
+        }
+
+        /* Running Text Animation */
+        .running-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: #00ffcc;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to MVT - Your Digital Transformation Partner</h1>
+        <h1>🚀 Welcome to MVT - Your Digital Transformation Partner</h1>
+        
         <div class="section">
-            <p>At MVT, we empower businesses with cutting-edge digital solutions, enabling them to stay ahead in the rapidly evolving technology landscape. With expertise in AI/ML, Blockchain, IoT, Cloud, Automation, and more, we deliver innovative services tailored to your needs.</p>
+            <p class="running-text">🚀 Transform your business with AI, Blockchain, IoT, Cloud, and Automation! 🌟</p>
+            <p>At MVT, we empower businesses with cutting-edge digital solutions, enabling them to stay ahead in the rapidly evolving technology landscape.</p>
         </div>
         
         <div class="section">
             <h2>Why Choose Us?</h2>
             <p>✅ <span class="highlight">Advanced Digital Technology Services</span> – Harnessing AI, Generative AI, Data Engineering, and the Metaverse to transform industries.</p>
-            <p>✅ <span class="highlight">End-to-End Digital Engineering</span> – From Application Development & Modernization to Quality Engineering & Cloud Infrastructure, we accelerate digital transformation.</p>
-            <p>✅ <span class="highlight">Industry-Specific Solutions</span> – Serving Telecom, Banking, Retail, Healthcare, and more, ensuring tailored and impactful business solutions.</p>
-            <p>✅ <span class="highlight">Commitment to Innovation</span> – Leveraging automation, cloud technology, and UX/UI design to create seamless digital experiences.</p>
+            <p>✅ <span class="highlight">End-to-End Digital Engineering</span> – From Application Development & Modernization to Quality Engineering & Cloud Infrastructure.</p>
+            <p>✅ <span class="highlight">Industry-Specific Solutions</span> – Serving Telecom, Banking, Retail, Healthcare, and more.</p>
+            <p>✅ <span class="highlight">Commitment to Innovation</span> – Creating seamless digital experiences with automation, cloud technology, and UX/UI design.</p>
         </div>
         
         <div class="section">
@@ -228,13 +272,13 @@
                 <div class="service-item">🔗 Blockchain & IoT – Secure, decentralized, and smart technology solutions.</div>
                 <div class="service-item">🖥️ Software Development – Scalable and robust application modernization.</div>
                 <div class="service-item">☁️ Cloud & DevOps – Optimize infrastructure with cloud-native technologies.</div>
-                <div class="service-item">📊 Quality Engineering & Automation – Ensure high performance with our AI-driven testing frameworks.</div>
+                <div class="service-item">📊 Quality Engineering & Automation – AI-driven testing frameworks.</div>
             </div>
         </div>
         
         <div class="section">
-            <h2>Explore the Future with MVT</h2>
-            <p>We believe in shaping the future of digital enterprises with smart, secure, and scalable solutions. Let’s build the next-generation technology landscape together!</p>
+            <h2>🚀 Explore the Future with MVT</h2>
+            <p>We shape the future of digital enterprises with smart, secure, and scalable solutions.</p>
         </div>
         
         <p class="contact">📩 Get in Touch – Contact us today to accelerate your digital journey!</p>
@@ -242,18 +286,44 @@
 </body>
 
 
+
 <!-- Salman updates end -->
 
-    <div class="mid-content">
-        <!-- slide show -->
-        <div class="slide-show">
-            <img src="img i.png" alt="MVT Image">
-            <img src="Untitled design (5).png" alt="MVT Image">
-            <img src="Untitled design (6).png" alt="MVT Image">
-            <img src="Acclerate Testing with Hyper Automation.png" alt="MVT Image">
-        </div>
-       
+<style>
+    .slide-show {
+        text-align: center;
+    }
+
+    .slide-show img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slide-show p {
+        font-size: 30px;
+        color: #ffffff; /* White */
+        font-weight: bold;
+        margin: 10px 0;
+    }
+</style>
+
+<div class="mid-content">
+    <!-- slide show -->
+    <div class="slide-show">
+        <img src="img i.png" alt="MVT Image">
+        <p>Enhancing automation with cutting-edge testing solutions.</p>
+
+        <img src="Untitled design (5).png" alt="MVT Image">
+        <p>Seamlessly integrate AI-driven test automation in your workflow.</p>
+
+        <img src="Untitled design (6).png" alt="MVT Image">
+        <p>Boost efficiency with end-to-end quality assurance strategies.</p>
+
+        <img src="Acclerate Testing with Hyper Automation.png" alt="MVT Image">
+        <p>Accelerate testing with hyper-automation for faster delivery.</p>
     </div>
+</div>
+
 
     <!-- end-content -->
 
