@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -449,3 +450,383 @@
     <script src="mvt.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVT</title>
+    <link rel="icon" href="MTV LOgo.jpg">
+    <link rel="stylesheet" href="mvt.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     
+    <!--Font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+<body >
+
+    <!-- navbar -->
+
+    <div class="nav">
+        <div class="logo">
+            <img src="MTV_LOgo-removebg-preview.png" alt="">
+        </div>
+        <ul class="links">
+            <li class="nav-link"><a href="">ABOUT US</a>
+                <ul class="drp-btn">
+                    <li class="sub-links"><a href="">Who are we</a></li>
+                    <li class="sub-links"><a href="">Partnerships</a></li>
+                    <li class="sub-links"><a href="">Corporate Citizenship</a></li>
+                    <li class="sub-links"><a href="">News room</a></li>
+                </ul></li>
+            <li class="nav-link"><a href="">SERVICES</a>
+                <ul class="drp-btn" id="services-panel">
+                <li class="sub-links"><h3>Digital Technology Services</h3></li>
+                    <li class="sub-links"><a href="">Generative AI</a></li>
+                    <li class="sub-links"><a href="">AI/ML</a></li>
+                    <li class="sub-links"><a href="">Data Engineering</a></li>
+                    <li class="sub-links"><a href="">Blockchain</a></li>
+                    <li class="sub-links"><a href="">IOT</a></li>
+                    <li class="sub-links"><a href="">Meta Verse</a></li>
+                <li class="sub-links"><h3>Digital Engineering Services</h3></li>
+                    <li class="sub-links"><a href="">Application Development and Modernization</a></li>
+                    <li class="sub-links"><a href="">Quality Engineering and Automation</a></li>
+                    <li class="sub-links"><a href="">Cloud Infrastructure</a></li>
+                    <li class="sub-links"><a href="">UX UI</a></li>
+                    <li class="sub-links"><a href="">Salesforce</a></li>
+                    <li class="sub-links"><a href="">Mobility & Robotics</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="">INDUSTRIES</a>
+                <ul class="drp-btn">
+                    <li class="sub-links"><a href="">Telecom Media Technology</a></li>
+                    <li class="sub-links"><a href="">Banking Financial Services</a></li>
+                    <li class="sub-links"><a href="">Retail CPG Logistics</a></li>
+                    <li class="sub-links"><a href="">Healthcare Life Sciences</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="">EVENT</a>
+                <ul class="drp-btn">
+                    <li class="sub-links"><a href="">In-Person Events</a></li>
+                    <li class="sub-links"><a href="">Webinars</a></li>
+                    </ul>
+            </li>
+            <li class="nav-link"><a href="">RESOURCES</a>
+                <ul class="drp-btn">
+                    <li class="sub-links"><a href="">Blogs</a></li>
+                    <li class="sub-links"><a href="">Success Stories</a></li>
+                    <li class="sub-links"><a href="">Whitepapers</a></li>
+                    <li class="sub-links"><a href="">Insights</a></li>
+                    <li class="sub-links"><a href="">Videos</a></li>
+                </ul>
+            </li>
+            <li class="nav-link"><a href="">CAREER</a></li>
+            <li class="nav-link"><a href="">CONTACT US</a></li>
+        </ul>
+        <div class="navbar-togle" >
+            <i class="fa-solid fa-bars" onclick="opensnavbar()"></i>
+        </div>
+    </div>
+
+    <!-- side-navbar -->
+     
+    <div class="sidenavbar">
+    <ul class="side-links">
+        <p><i class="fa-solid fa-rectangle-xmark" onclick="closesnavbar()"></i></p>
+        <li class="side-nav-link"><a href="#">ABOUT US</a>
+            <ul class="side-drp-btn">
+                <li class="side-sub-links"><a href="">Who are we</a></li>
+                <li class="side-sub-links"><a href="">Partnerships</a></li>
+                <li class="side-sub-links"><a href="">Corporate Citizenship</a></li>
+                <li class="side-sub-links"><a href="">News room</a></li>
+            </ul></li>
+        <li class="side-nav-link"><a href="#">SERVICES</a>
+            <ul class="side-drp-btn" id="services-panel">
+            <li class="side-sub-links"><h3>Digital Technology Services</h3></li>
+                <li class="side-sub-links"><a href="">Generative AI</a></li>
+                <li class="side-sub-links"><a href="">AI/ML</a></li>
+                <li class="side-sub-links"><a href="">Data Engineering</a></li>
+                <li class="side-sub-links"><a href="">Blockchain</a></li>
+                <li class="side-sub-links"><a href="">IOT</a></li>
+                <li class="side-sub-links"><a href="">Meta Verse</a></li>
+            <li class="side-sub-links"><h3>Digital Engineering Services</h3></li>
+                <li class="side-sub-links"><a href="">Application Development and Modernization</a></li>
+                <li class="side-sub-links"><a href="">Quality Engineering and Automation</a></li>
+                <li class="side-sub-links"><a href="">Cloud Infrastructure</a></li>
+                <li class="side-sub-links"><a href="">UX UI</a></li>
+                <li class="side-sub-links"><a href="">Salesforce</a></li>
+                <li class="side-sub-links"><a href="">Mobility & Robotics</a></li>
+            </ul>
+        </li>
+        <li class="side-nav-link"><a href="#">INDUSTRIES</a>
+            <ul class="side-drp-btn">
+                <li class="side-sub-links"><a href="">Telecom Media Technology</a></li>
+                <li class="side-sub-links"><a href="">Banking Financial Services</a></li>
+                <li class="side-sub-links"><a href="">Retail CPG Logistics</a></li>
+                <li class="side-sub-links"><a href="">Healthcare Life Sciences</a></li>
+            </ul>
+        </li>
+        <li class="side-nav-link"><a href="#">EVENT</a>
+            <ul class="side-drp-btn">
+                <li class="side-sub-links"><a href="">In-Person Events</a></li>
+                <li class="side-sub-links"><a href="">Webinars</a></li>
+                </ul>
+        </li>
+        <li class="side-nav-link"><a href="#">RESOURCES</a>
+            <ul class="side-drp-btn">
+                <li class="side-sub-links"><a href="">Blogs</a></li>
+                <li class="side-sub-links"><a href="">Success Stories</a></li>
+                <li class="side-sub-links"><a href="">Whitepapers</a></li>
+                <li class="side-sub-links"><a href="">Insights</a></li>
+                <li class="side-sub-links"><a href="">Videos</a></li>
+            </ul>
+        </li>
+        <li class="side-nav-link"><a href="">CAREER</a></li>
+        <li class="side-nav-link"><a href="">CONTACT US</a></li>
+    </ul>
+    </div>
+
+    <!-- mid-content -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MVT - Digital Transformation Partner</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    
+            body {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(135deg, #000000, #2a5298);
+                color: #fff;
+            }
+    
+            .container {
+                max-width: 2000px;
+                margin: 20px auto;
+                background: rgba(255, 255, 255, 0.1);
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+                text-align: center;
+            }
+    
+            .section {
+                background: rgba(0, 76, 255, 0.2);
+                margin: 20px;
+                padding: 20px;
+                border-radius: 1px;
+                box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+            }
+    
+            h1, h2 {
+                color: #ffcc00;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-weight: bold;
+                animation: glowing 1.5s infinite alternate;
+            }
+    
+            @keyframes glowing {
+                0% { text-shadow: 0 0 5px #000000; }
+                100% { text-shadow: 0 0 15px #545454; }
+            }
+    
+            .highlight {
+                color: #28a745;
+                font-weight: bold;
+                font-size: 30px;
+            }
+    
+            .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+    
+            .service-item {
+                background: #ff5733;
+                color: white;
+                padding: 15px;
+                border-radius: 10px;
+                width: 280px;
+                font-weight: bold;
+                font-size: 18px;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .service-item:hover {
+                transform: scale(1.1);
+                background: #ff7733;
+            }
+    
+            .contact {
+                margin-top: 20px;
+                font-weight: bold;
+                font-size: 35px;
+                color: #ffeb3b;
+            }
+    
+            /* Running Text Animation */
+            .running-text {
+                font-size: 20px;
+                font-weight: bold;
+                color: #00ffcc;
+                overflow: hidden;
+                white-space: nowrap;
+                animation: marquee 15s linear infinite;
+            }
+    
+            @keyframes marquee {
+                0% { transform: translateX(100%); }
+                100% { transform: translateX(-100%); }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>🚀 Welcome to MVT - Your Digital Transformation Partner</h1>
+            
+            <div class="section">
+                <p class="running-text">🚀 Transform your business with AI, Blockchain, IoT, Cloud, and Automation! 🌟</p>
+                <p>At MVT, we empower businesses with cutting-edge digital solutions, enabling them to stay ahead in the rapidly evolving technology landscape.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Why Choose Us?</h2>
+                <p>✅ <span class="highlight">Advanced Digital Technology Services</span> – Harnessing AI, Generative AI, Data Engineering, and the Metaverse to transform industries.</p>
+                <p>✅ <span class="highlight">End-to-End Digital Engineering</span> – From Application Development & Modernization to Quality Engineering & Cloud Infrastructure.</p>
+                <p>✅ <span class="highlight">Industry-Specific Solutions</span> – Serving Telecom, Banking, Retail, Healthcare, and more.</p>
+                <p>✅ <span class="highlight">Commitment to Innovation</span> – Creating seamless digital experiences with automation, cloud technology, and UX/UI design.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Our Services</h2>
+                <div class="services">
+                    <div class="service-item">🚀 AI & Data Science – Drive business intelligence with AI-powered insights.</div>
+                    <div class="service-item">🔗 Blockchain & IoT – Secure, decentralized, and smart technology solutions.</div>
+                    <div class="service-item">🖥️ Software Development – Scalable and robust application modernization.</div>
+                    <div class="service-item">☁️ Cloud & DevOps – Optimize infrastructure with cloud-native technologies.</div>
+                    <div class="service-item">📊 Quality Engineering & Automation – AI-driven testing frameworks.</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🚀 Explore the Future with MVT</h2>
+                <p>We shape the future of digital enterprises with smart, secure, and scalable solutions.</p>
+            </div>
+            
+            <p class="contact">📩 Get in Touch – Contact us today to accelerate your digital journey!</p>
+        </div>
+    </body>
+    
+
+    <style>
+        .slide-show {
+            text-align: center;
+        }
+    
+        .slide-show img {
+            display: block;
+            margin: 0 auto;
+        }
+    
+        .slide-show p {
+            font-size: 30px;
+            color: #ffffff; /* Ink Blue */
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    </style>
+    
+    <div class="mid-content">
+        <!-- slide show -->
+        <div class="slide-show">
+            <img src="img i.png" alt="MVT Image">
+            <p>Enhancing automation with cutting-edge testing solutions.</p>
+    
+            <img src="Untitled design (5).png" alt="MVT Image">
+            <p>Seamlessly integrate AI-driven test automation in your workflow.</p>
+    
+            <img src="Untitled design (6).png" alt="MVT Image">
+            <p>Boost efficiency with end-to-end quality assurance strategies.</p>
+    
+            <img src="Acclerate Testing with Hyper Automation.png" alt="MVT Image">
+            <p>Accelerate testing with hyper-automation for faster delivery.</p>
+        </div>
+    </div>
+    
+
+    <!-- end-content -->
+
+    <div class="end-content">
+        <div class="social">
+            <h3>Follow MVT On</h3>
+            <div class="soc-links">
+                <img src="FB_img-removebg-preview.png" alt="" onclick="lanchFb()">
+                <img src="twitter-x-logo-png-9.png" alt="" onclick="lanchTwitter()">
+                <img src="Whatsapp-removebg-preview.png" alt="" onclick="lanchWhatsapp()">
+                <img src="insta-removebg-preview.png" alt="" onclick="lanchInstagram()">
+          </div>
+        </div>
+        <hr>
+        <div class="end-links">
+                <ul class="btch1">
+                    <li class="end-links"><h3>ABOUT US</h3></li>
+                    <li class="end-links"><a href="">Who are we</a></li>
+                    <li class="end-links"><a href="">Partnerships</a></li>
+                    <li class="end-links"><a href="">Corporate Citizenship</a></li>
+                    <li class="end-links"><a href="">News room</a></li>
+                </ul>
+                <ul class="btch2">
+                    <li class="end-links"><h3>SERVICES</h3></li>
+                    <li class="end-links"><a href="">Digital & Software</a></li>
+                    <li class="end-links"><a href="">Cloud Enablement</a></li>
+                    <li class="end-links"><a href="">Digital Tech Services</a></li>
+                    <li class="end-links"><a href="">Digital Media</a></li>
+                </ul>
+                <ul class="btch3">
+                    <li class="end-links"><h3>INDUSTRIES</h3></li>
+                    <li class="end-links"><a href="">Telecom | Media | Technology</a></li>
+                    <li class="end-links"><a href="">Retail | CPG | Logistics</a></li>
+                    <li class="end-links"><a href="">Banking | Financial Services</a></li>
+                    <li class="end-links"><a href="">Health | Life Sciences</a></li>
+                </ul>
+                <ul class="btch4">
+                    <li class="end-links"><h3>DIGITAL SOLUTIONS</h3></li>
+                    <li class="end-links"><a href="">AlphaMetricx</a></li>
+                    <li class="end-links"><a href="">APPsolute</a></li>
+                    <li class="end-links"><a href="">Digit7</a></li>
+                    <li class="end-links"><a href="">Invisinet</a></li>
+                    <li class="end-links"><a href="">VCollab</a></li>
+                </ul>
+                <hr>
+                <ul class="btch4">
+                    <li class="end-links"><h3>HEAD OFFICE</h3></li>
+                    <br><br>
+                    <P>No.7, Zoya Workspace, 
+                        <br>Near Chandrika Chamber,
+                        <br> Royapettah,Chennai 600014  
+                        <br> Tamil Nadu. </P>
+           </div>
+           <hr>
+           <div class="copyrights">
+            <center><h4> &copy; copyrights 2025 Machine Vogue Technology -All Rights Reserved</h4></center>
+           </div>
+    </div>
+    <script src="mvt.js"></script>
+</body>
+</html>
+>>>>>>> b3e75a40bcff01ce38604360dd3aaa35432b25a0
