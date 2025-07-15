@@ -84,7 +84,7 @@
     position: fixed;
     width: 50%;
     height: 100%;
-    background-image: radial-gradient(blue,navy);
+    background-image: rgb(0, 0, 0);
     background-color: black;
     color: white;
 }
@@ -102,7 +102,7 @@
     list-style-type: none;
 }
 .side-sub-links{
-    background-image:  radial-gradient(blue,navy);
+    background-image:  rgb(0, 0, 0);
     padding: 10px;
     display: none;
     list-style-type: none;
@@ -131,7 +131,7 @@
 .end-content{
     max-width: 100%;
     color: wheat;
-    background-color: rgb(64, 60, 60);
+    background-color: rgb(0, 0, 0);
 }
 .social{
     width: 100%;
@@ -172,6 +172,6 @@
         display: none;
     }
     .nav{
-        background-image:  linear-gradient(to right,white,white,white,white,white, navy , blue ,blue,blue ,navy,navy,blue,blue,navy,lightblue );
+        background-image:  rgb(0, 0, 0);
     }
 }
